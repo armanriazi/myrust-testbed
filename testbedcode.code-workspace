@@ -3,6 +3,9 @@
         {
             "name": "myrust-testbed",
             "path": "../../../../../../root/gitrepositories/myrust-testbed"
+        },
+        {
+            "path": "."
         }
     ]
 }
