@@ -24,10 +24,11 @@ fn read_and_validate(
     b: &mut dyn io::BufRead,
 ) -> Result<PositiveNonzeroInteger, Box<dyn error::Error>> {
     let mut line = String::new();
-    b.read_line(&mut line)?;
+    b.read_line(&mut line)?;//decode. to string
     let num: i64 = line.trim().parse()?;
     let answer = PositiveNonzeroInteger::new(num)?;
     Ok(answer)
+    
 }
 
 // fn read_numbers_from_file(
@@ -43,26 +44,29 @@ fn read_and_validate(
 
 // This is a test helper function that turns a &str into a BufReader.
 fn test_with_str(s: &str) -> Result<PositiveNonzeroInteger, Box<dyn error::Error>> {
-    let mut b = io::BufReader::new(s.as_bytes());
+    let mut b = io::BufReader::new(s.as_bytes());//encode
     read_and_validate(&mut b)
 }
 
 fn test_success() {
-    let x = test_with_str("42\n");
-    //println!("Printed:{}",x.0);
-    
+    let x = test_with_str("42\n");    
+    //Ok(PositiveNonzeroInteger(42))
     assert_eq!(PositiveNonzeroInteger(42), x.unwrap());
 }
 
 
 fn test_not_num() {
     let x = test_with_str("eleven billion\n");
+    //:Err(ParseIntError { kind: InvalidDigit })    
+    //println!("Printed:{:?}",x);
+    
     assert!(x.is_err());
 }
 
 
 fn test_non_positive() {
     let x = test_with_str("-40\n");
+    //:Err(ParseIntError { kind: InvalidDigit })
     assert!(x.is_err());
 }
 

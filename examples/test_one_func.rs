@@ -14,6 +14,6 @@ fn calc_apple_price(num:i32) -> i32 {
 fn verify_test(){
     let price1=calc_apple_price(35);
     let price2=calc_apple_price(65);
-    assert_eq!(70,price1);
+    assert_eq!(60,price1);
     assert_eq!(65,price2);
 }

@@ -30,6 +30,9 @@ fn read_and_validate(
     Ok(answer)
 }
 
+fn main(){
+    
+}
 // fn read_numbers_from_file(
 //     file: &mut dyn io::BufRead,
 // ) -> Result<Vec<i64>, io::Error> {
@@ -92,8 +95,7 @@ impl PositiveNonzeroInteger {
         } else {
             Ok(PositiveNonzeroInteger(value as u64))
         }
-    }
-    
+    }    
 }
 
 #[test]
