@@ -1,0 +1,1 @@
+/home/u2004zero/u2004zero/app/testbedcode/myrust/target/debug/examples/variables_mut: /home/u2004zero/u2004zero/app/testbedcode/myrust/examples/variables_mut.rs /home/u2004zero/u2004zero/app/testbedcode/myrust/src/lib.rs

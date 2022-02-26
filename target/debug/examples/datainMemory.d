@@ -1,0 +1,1 @@
+/home/u2004zero/u2004zero/app/testbedcode/myrust/target/debug/examples/datainMemory: /home/u2004zero/u2004zero/app/testbedcode/myrust/examples/datainMemory.rs /home/u2004zero/u2004zero/app/testbedcode/myrust/src/lib.rs

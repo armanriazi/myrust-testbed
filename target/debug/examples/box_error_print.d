@@ -1,0 +1,1 @@
+/home/u2004zero/u2004zero/app/testbedcode/myrust/target/debug/examples/box_error_print: /home/u2004zero/u2004zero/app/testbedcode/myrust/examples/box_error_print.rs /home/u2004zero/u2004zero/app/testbedcode/myrust/src/lib.rs

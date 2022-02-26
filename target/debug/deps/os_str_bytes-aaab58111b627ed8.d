@@ -1,0 +1,13 @@
+/home/u2004zero/u2004zero/app/testbedcode/myrust/target/debug/deps/os_str_bytes-aaab58111b627ed8.rmeta: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/common/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/util.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/common/raw.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/iter.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/pattern.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/raw_str.rs
+
+/home/u2004zero/u2004zero/app/testbedcode/myrust/target/debug/deps/libos_str_bytes-aaab58111b627ed8.rlib: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/common/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/util.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/common/raw.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/iter.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/pattern.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/raw_str.rs
+
+/home/u2004zero/u2004zero/app/testbedcode/myrust/target/debug/deps/os_str_bytes-aaab58111b627ed8.d: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/common/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/util.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/common/raw.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/iter.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/pattern.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/raw_str.rs
+
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/lib.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/common/mod.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/util.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/common/raw.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/iter.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/pattern.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/os_str_bytes-6.0.0/src/raw_str.rs:

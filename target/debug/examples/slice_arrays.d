@@ -1,0 +1,1 @@
+/home/u2004zero/u2004zero/app/testbedcode/myrust/target/debug/examples/slice_arrays: /home/u2004zero/u2004zero/app/testbedcode/myrust/examples/slice_arrays.rs /home/u2004zero/u2004zero/app/testbedcode/myrust/src/lib.rs
