@@ -6,7 +6,7 @@ edition = "2021"
 repository = "https://github.com/omarabid/rust-starter"
 readme = "README.md"
 license = "MIT"
-keywords = ["cli", "starter"]
+#keywords = ["cli", "starter"]
 description = """
 Rust Starter aims to provide high quality components to bootstrap your Rust CLI Project. It includes a battery of most used libraries; and defines a set of Rust best practices.
 """
@@ -19,9 +19,9 @@ Rust Starter aims to provide high quality components to bootstrap your Rust CLI 
 # ]
 
 [dependencies]
-utils = { path = "utils" }
-cli = { path = "cli"}
-core = { path = "core" }
+# utils = { path = "utils" }
+# cli = { path = "cli"}
+# core = { path = "core" }
 human-panic = "1.0.3"
 better-panic = "0.3.0"
 log = "0.4.11"

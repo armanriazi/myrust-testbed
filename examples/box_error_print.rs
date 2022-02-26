@@ -102,6 +102,7 @@ impl fmt::Display for CreationError {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         f.write_str((self as &dyn error::Error).description())
     }
+    
 }
 
 impl error::Error for CreationError {
