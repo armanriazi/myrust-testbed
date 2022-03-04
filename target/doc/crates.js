@@ -1,1 +1,1 @@
-window.ALL_CRATES = ["hello_world"];
+window.ALL_CRATES = ["addr2line","adler","aho_corasick","arc_swap","backtrace","better_panic","cfg_if","console","getrandom","gimli","hello_world","human_panic","lazy_static","libc","log","memchr","miniz_oxide","num","num_bigint","num_complex","num_integer","num_iter","num_rational","num_traits","object","once_cell","os_type","proc_macro2","quote","regex","regex_syntax","rust_starter","rustc_demangle","serde","serde_derive","slog","slog_scope","slog_stdlog","syn","termcolor","terminal_size","toml","unicode_xid","uuid"];
