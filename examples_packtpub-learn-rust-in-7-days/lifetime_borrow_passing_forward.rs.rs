@@ -7,6 +7,11 @@ pub fn trim_left<'a>(s:&'a str)->&'a str{
     }
     ""
 }
+
+fn main(){
+
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;

@@ -35,6 +35,9 @@ pub struct GBP(i32);
     res
 }
 
+fn main(){
+    
+}
 
 #[cfg(test)]
 mod tests {
