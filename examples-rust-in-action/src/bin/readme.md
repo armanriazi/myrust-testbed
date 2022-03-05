@@ -1,0 +1,3 @@
+Searching for text wouldn’t be complete without being able to search within files. File I/O can be surprisingly finicky and so has been left until last.
+
+Before adding this functionality to grep-lite, let’s take a look at a standalone example in listing 2.27. The code for this listing is in the ch2-read-file.rs file. The general pattern is to open a File object, then wrap that in a BufReader. BufReader takes care of providing buffered I/O, which can reduce system calls to the OS if the hard disk is congested.

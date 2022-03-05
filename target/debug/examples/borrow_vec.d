@@ -1,1 +1,0 @@
-/home/u2004zero/u2004zero/app/testbedcode/myrust/target/debug/examples/borrow_vec: /home/u2004zero/u2004zero/app/testbedcode/myrust/examples/borrow_vec.rs /home/u2004zero/u2004zero/app/testbedcode/myrust/src/lib.rs

@@ -1,1 +1,0 @@
-/home/u2004zero/u2004zero/app/testbedcode/myrust/target/debug/examples/c-like: /home/u2004zero/u2004zero/app/testbedcode/myrust/examples/c-like.rs /home/u2004zero/u2004zero/app/testbedcode/myrust/src/lib.rs

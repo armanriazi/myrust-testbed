@@ -1,1 +1,0 @@
-/home/u2004zero/u2004zero/app/testbedcode/myrust/target/debug/examples/modules1_static: /home/u2004zero/u2004zero/app/testbedcode/myrust/examples/modules1_static.rs /home/u2004zero/u2004zero/app/testbedcode/myrust/src/lib.rs

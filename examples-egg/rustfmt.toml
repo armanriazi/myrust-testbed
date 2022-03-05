@@ -1,0 +1,5 @@
+edition = "2021"
+format_strings = true
+fn_single_line = false
+reorder_modules = false
+use_small_heuristics = "Max"

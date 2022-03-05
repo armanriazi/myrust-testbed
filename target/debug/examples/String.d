@@ -1,1 +1,0 @@
-/home/u2004zero/u2004zero/app/testbedcode/myrust/target/debug/examples/String: /home/u2004zero/u2004zero/app/testbedcode/myrust/examples/String.rs /home/u2004zero/u2004zero/app/testbedcode/myrust/src/lib.rs

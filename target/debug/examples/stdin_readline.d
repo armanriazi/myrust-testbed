@@ -1,1 +1,0 @@
-/home/u2004zero/u2004zero/app/testbedcode/myrust/target/debug/examples/stdin_readline: /home/u2004zero/u2004zero/app/testbedcode/myrust/examples/stdin_readline.rs /home/u2004zero/u2004zero/app/testbedcode/myrust/src/lib.rs

@@ -1,1 +1,0 @@
-/home/u2004zero/u2004zero/app/testbedcode/myrust/target/debug/examples/tuplelikestruct: /home/u2004zero/u2004zero/app/testbedcode/myrust/examples/tuplelikestruct.rs /home/u2004zero/u2004zero/app/testbedcode/myrust/src/lib.rs

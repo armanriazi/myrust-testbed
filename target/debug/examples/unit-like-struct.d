@@ -1,1 +1,0 @@
-/home/u2004zero/u2004zero/app/testbedcode/myrust/target/debug/examples/unit-like-struct: /home/u2004zero/u2004zero/app/testbedcode/myrust/examples/unit-like-struct.rs /home/u2004zero/u2004zero/app/testbedcode/myrust/src/lib.rs
