@@ -15,7 +15,7 @@ impl PartialEq for Book {
     }
 }
 
-
+fn main(){}
 
 #[cfg(test)]
 mod tests {

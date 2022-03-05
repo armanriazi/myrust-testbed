@@ -1,10 +1,13 @@
-pub fn bigger(a: i32,b i32) -> i32{
+pub fn bigger(a: i32,b: i32) -> i32{
     if a>b{
     a
     }
     else{
     b
     }
+
+}
+fn main(){
 
 }
 
@@ -14,7 +17,7 @@ pub fn bigger(a: i32,b i32) -> i32{
 
      #[test]
      fn ten_is_bigger_than_eight(){
-         assert_eq!(10, bigger(a:10,b:8));         
+         assert_eq!(10, bigger(10,8));         
      }
 
      #[test]

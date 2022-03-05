@@ -24,6 +24,10 @@ impl PartialEq<Book> for BookFormat {
         *self == other.format
     }
 }
+
+
+fn main(){}
+
 #[cfg(test)]
 mod tests {
     use super::*;

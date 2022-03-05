@@ -1,6 +1,6 @@
 pub enum LinkedList<T>{
     Tail,
-    Head(T,Box<LinkedLisdt<T>>)
+    Head(T,Box<LinkedList<T>>)
 }
 use self::LinkedList::*;
 

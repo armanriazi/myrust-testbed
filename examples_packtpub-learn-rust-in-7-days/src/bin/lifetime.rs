@@ -23,17 +23,23 @@ pub struct GBP(i32);
 }
  */
 
+
+
+
+
+ /*
  fn on_money_pointer(a:i32, b:i32)-> GBP{
     let r;
     {   
-        let mut g= GBP(a);
-        r=&g;
+       // let mut 'g= GBP(a);
+        //r=&g;
        
     }
 
-    let res=GBP(r.0+b);
-    res
-}
+    //let res=GBP(r.0+b);
+    //res
+    r
+}*/
 
 fn main(){
     
@@ -44,10 +50,11 @@ mod tests {
     use super::*;
     #[test]
     fn it_work(){
-       //let g= money_pointer(3);
-       //assert_eq!(*g,GBP(3));
-       let g= on_money_pointer(3, 4);
-       assert_eq!(g,GBP(7));
+       ////let g= money_pointer(3);
+       ////assert_eq!(*g,GBP(3));
+       
+       //let g= on_money_pointer(3, 4);
+       //assert_eq!(g,GBP(7));
        
        
     }

@@ -24,6 +24,9 @@ fn create_order_template() -> Order {
         count: 0,
     }
 }
+fn main (){
+
+}
 
 #[cfg(test)]
 mod tests {

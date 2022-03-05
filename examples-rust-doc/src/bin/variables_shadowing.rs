@@ -1,7 +1,7 @@
 fn main() {
     // rust infers the type of x
     let  x = 13;
-    x=13;
+    //x=13;
     println!("{}", x);
 
     // rust can also be explicit about the type

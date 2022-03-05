@@ -4,6 +4,10 @@ fn is_even(num:i32)-> bool{
 pub fn times_two(num:i32)-> i32{
     num*2
 }
+fn main(){
+
+}
+
 
 #[cfg(test)]
 mod tests {
