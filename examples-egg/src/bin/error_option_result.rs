@@ -18,6 +18,9 @@ pub fn opt_generate_nametag_text(name: String) -> Option<String> {
             }
 }
 
+fn main(){
+
+}
 
 #[cfg(test)]
 mod tests {

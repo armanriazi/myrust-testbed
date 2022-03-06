@@ -11,7 +11,7 @@ fn main() {
     let xs: [i32; 5] = [1, 2, 3, 4, 5];
 
     // All elements can be initialized to the same value
-    let ys: [i32; 500] = [0 .. 500];
+    let ys: [i32; 500] = [1..100];
 
     // Indexing starts at 0
     println!("first element of the array: {}", xs[0]);

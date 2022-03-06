@@ -63,13 +63,6 @@ impl Read for File {
 }
 
 impl File {
-     /// Creates a new, empty `File`.
-   ///
-   /// # Examples
-   ///
-   /// ```
-   /// let f = File::new("f1.txt");
-   /// ```
      /// New files are assumed to be empty, but a name is required.
    pub fn new(name: &str) -> File {
      File {
