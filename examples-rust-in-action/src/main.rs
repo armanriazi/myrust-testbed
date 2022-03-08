@@ -16,7 +16,7 @@ pub enum FileState {
  
  /// Represents a "file",
  /// which probably lives on a file system.
- #[derive(Debug)]
+ #[derive(Debug,PartialEq)]
  pub struct File {
    pub name: String,
    data: Vec<u8>,

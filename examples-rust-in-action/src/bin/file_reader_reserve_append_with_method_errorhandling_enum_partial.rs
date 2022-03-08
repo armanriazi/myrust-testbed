@@ -16,7 +16,7 @@ pub enum FileState {
  
  /// Represents a "file",
  /// which probably lives on a file system.
- #[derive(Debug)]
+ #[derive(Debug,PartialEq)]
  pub struct File {
    pub name: String,
    data: Vec<u8>,
@@ -63,6 +63,13 @@ impl Read for File {
 }
 
 impl File {
+     /// Creates a new, empty `File`.
+   ///
+   /// # Examples
+   ///
+   /// ```
+   /// let f = File::new("f1.txt");
+   /// ```
      /// New files are assumed to be empty, but a name is required.
    pub fn new(name: &str) -> File {
      File {
