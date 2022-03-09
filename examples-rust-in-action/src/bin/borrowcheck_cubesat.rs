@@ -1,14 +1,12 @@
- #![allow(unused_variables)]
-   
-  #[derive(Debug)]
-  //Implementing the short-lived variables strategy
-  //some sat
-  struct CubeSat {
-    id: u64,
-  }
-   
-  #[derive(Debug)]
-  struct Mailbox {
+#![allow(unused_variables)]
+ 
+#[derive(Debug)]
+struct CubeSat {
+  id: u64,
+}
+ 
+#[derive(Debug)]
+struct Mailbox {
   messages: Vec<Message>,
 }
  
@@ -16,7 +14,6 @@
 struct Message {
     to: u64,
     content: String,
-    
 }
  
 struct GroundStation {}
@@ -28,9 +25,7 @@ impl Mailbox {
  
     fn deliver(&mut self, recipient: &CubeSat) -> Option<Message> {
         for i in 0..self.messages.len() {
-            //That way our now-proxy CubeSat instances can match their IDs to receive messages:
             if self.messages[i].to == recipient.id {
-                /*Astute readers of listing 4.14 will notice a strong anti-pattern. On line 32, the self.messages collection is modified while it is being iterated over. In this instance, this is legal because of the return on the next line. The compiler can prove that another iteration will not occur and allows the mutation to proceed. */
                 let msg = self.messages.remove(i);
                 return Some(msg);
             }
